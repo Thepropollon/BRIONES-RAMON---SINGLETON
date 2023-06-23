@@ -4,6 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+Tarea: Sistema de Gestión de Inventario
+
+Descripción:
+Desarrolla un sistema de gestión de inventario para una tienda que permita agregar productos, 
+eliminar productos y obtener la cantidad de un producto en el inventario.
+
+Requerimientos:
+
+Implementa la clase InventoryManager como un Singleton para garantizar 
+una única instancia del gestor de inventario.
+
+La clase debe tener un diccionario inventory 
+para almacenar los productos y sus cantidades.
+
+Implementa el método AddProduct para agregar productos al inventario.
+
+Implementa el método RemoveProduct para eliminar productos del inventario.
+
+Implementa el método GetProductQuantity para obtener la cantidad de un producto en el inventario.
+
+*/
+
 public class InventoryManager
 {
     private static InventoryManager instance; // Instancia única de InventoryManager
